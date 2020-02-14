@@ -1,10 +1,111 @@
 /*
-    Elements: Images
+    Elements: Page
     ---
-    Default markup for images to make them responsive
+    Default markup for page level elements
 */
 
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+  color: #111;
+  padding: 24px 24px 0;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #44c8f5;
+  color: white;
+  text-shadow: none;
+}
+
+::selection {
+  background: #44c8f5;
+  color: white;
+  text-shadow: none;
+}
+
 img {
-  max-width: 100%;
-  vertical-align: top;
+    max-width: 100%;
+    vertical-align: top;
+
+    /*
+    Elements: typography
+    ---
+    Default markup for typographic elements
+*/
+
+h1 {
+    font-family: "Times New Roman", serif;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 0 0 48px;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4,
+h5,
+h6 {
+
+}
+
+p,
+ol,
+ul,
+dl,
+table,
+address,
+figure {
+
+}
+
+ul,
+ol,
+blockquote {
+
+}
+
+li ul,
+li ol{
+
+}
+
+blockquote {
+
+}
+
+figcaption {
+
+}
+
+hr {
+
+}
+
+a {
+
+}
+
+a:hover,
+a:focus {
+
+}
+
+a:visited,
+a:active {
+    
 }
