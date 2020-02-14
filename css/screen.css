@@ -196,3 +196,19 @@ html {
     scroll-behavior: smooth;
 }
 
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+th {
+    text-align: left;
+}
+
+th,
+td {
+    padding: 4px 8px;
+    border-bottom: 1px solid gainsboro;
+}
+
+
